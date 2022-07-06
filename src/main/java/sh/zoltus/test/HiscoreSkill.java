@@ -119,7 +119,7 @@ public enum HiscoreSkill
 	ZALCANO("Zalcano", BOSS),
 	ZULRAH("Zulrah", BOSS),
 	COMBAT("Combat", SKILL);
-
+//a
 	private final String name;
 	private final HiscoreSkillType type;
 }
