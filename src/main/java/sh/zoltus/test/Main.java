@@ -43,7 +43,7 @@ public class Main {
                 String jsonString = in.lines().collect(Collectors.joining("\n"));
                 System.out.println("Fetched " + name);
                 data.add(name + ":" + jsonString);
-                //OSRSPlayer p = new OSRSPlayer(jsonString);
+                //OSRSPlayer p = new OSRSPlayer(jsonString);a
                 in.close();
                 //sending the actual Thread of execution to sleep X milliseconds
                 Thread.sleep(50);
