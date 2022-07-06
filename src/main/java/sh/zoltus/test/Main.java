@@ -29,7 +29,7 @@ public class Main {
 
     @SneakyThrows
     public static void main(String[] args) {
-        //fetchPlayers(); // 11.1.2022
+        //fetchPlayers(); // 11.1.2022a
         doStuff();
     }
 
