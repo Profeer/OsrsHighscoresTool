@@ -33,6 +33,7 @@ import static sh.zoltus.test.HiscoreSkillType.*;
 @Getter
 public enum HiscoreSkill
 {
+	//a
 	OVERALL("Overall", HiscoreSkillType.OVERALL),
 	ATTACK("Attack", SKILL),
 	DEFENCE("Defence", SKILL),
