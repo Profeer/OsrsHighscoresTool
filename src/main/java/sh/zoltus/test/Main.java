@@ -30,6 +30,7 @@ public class Main {
     @SneakyThrows
     public static void main(String[] args) {
         //fetchPlayers(); // 11.1.2022aaaab
+
         doStuff();
     }
 
@@ -71,7 +72,6 @@ public class Main {
             results.add(parseResponse(name, scoreLine));
         }
         HiscoreSkill skill = HiscoreSkill.COMBAT;
-
         //Most order
         sortByMost(skill)
                 .forEach(result -> System.out.println(result.getPlayer() + " -> " + skill.name() + " : " + result.getSkill(skill).level()));
